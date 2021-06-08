@@ -1,0 +1,441 @@
+body{
+    width: 100%;
+}
+
+/* Cabeçalho */
+
+.header{
+    background: #818081;
+    margin-bottom: 20px;
+    padding: 10px;
+    z-index: 99999999999;
+}
+
+.navbar{
+    background: #818081;
+}
+
+.menu_area{
+    width: 100%;
+}
+
+.nav-item{
+    color:white;
+    margin-left: 5px;
+    padding-left: 2px;
+}
+
+.form-control{
+    width: 60px;
+}
+
+.form-inline{
+    margin-right: 50px;
+}
+
+.logo{
+    width: 150px;
+}
+
+body {
+    margin: 0;
+}
+
+/* Carousel */
+
+#carouselExampleIndicators{
+    background: rgb(235, 230, 235);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.container_titulo h1{
+    margin-left: 450px;
+    padding-bottom: 20px;
+    padding-top: 7px;
+}
+
+.text-center h1{
+    padding: 17px;
+}
+
+.diretor > p{
+    padding-left: 7px;
+    margin-left: 7px;
+}
+
+.carouselicons > p{
+    margin-left: 5px;
+    padding-left: 8px;
+    margin-top: 3px;
+
+}
+
+.biii{
+    margin-left: 5px;
+    padding-bottom: 30px;
+}
+
+.conteudol{
+    margin: 20px;
+
+}
+
+/* Destaques */
+
+.destaque h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+.destaquestitulo h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+.dropdown{
+    margin-top: 30px;
+}
+
+.destaques{
+    margin-top: 20px;
+}
+
+.card_area img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.carregar{
+    margin: 10px;
+    margin-top: 20px;
+    margin-left: 860px;
+}
+
+.dropdown{
+    margin-left: 370px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.destaquestitulo{
+    width: 50%;
+}
+
+
+/* Avaliações */
+
+.text-muted{
+    color: white;
+}
+
+.iconscard >i{
+    margin-left: 10px;
+ }
+ 
+.iconscard >p{
+     margin-left: 15px;
+     margin-top: 2px;
+}
+
+.person svg{
+    margin: 15px;
+}
+
+.carregara{
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 810px;
+}
+
+/* Entrevistas */
+
+.entrevistas{
+    background: rgb(235, 230, 235);
+    border-radius: 15px;
+}
+
+.row > iframe{
+    padding: 20px;
+}
+
+.carregaren{
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 810px;
+}
+
+/* Novidades */
+
+.novidades{
+    width: 65%;
+}
+
+
+.editorial{
+    width: 35%;
+}
+
+.texto {
+    width: 100%;
+}
+
+.bottom {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.bg-secondary{
+    color: white;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.card-bodynn{
+    margin-top: 20px;
+}
+
+.materiaimg img{
+    border-radius: 20px;
+}
+
+.novidades1{
+    display: flex;
+    flex-direction: row;
+}
+
+.tamanhoCard{
+    width: 650px;
+}
+
+/* Sobre e Editorial */
+
+.divEditorial{
+    margin: 30px;
+}
+
+.texto > p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.bi{
+    font-size: 30px;
+    margin: 10px;
+    margin-right: 0px;
+}
+
+.persona > h6{
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.bii{
+    font-size: 25px;
+}
+
+.icones > h3{
+    font-size: 25px;
+    margin-top: 10px;
+}
+/* Rodapé */
+
+.footer{
+    margin-top: 30px;
+    background: #818081;
+    color: white;
+}
+
+.footer_area{
+    padding: 20px;
+    text-align: center  ;
+}
+
+.footer_area img{
+    margin-left: 90px;
+}
+
+@media screen and (max-width: 600px){
+
+    body{
+        width: 100%;
+    }
+
+    /* Body */
+
+    main{
+        align-items: center;
+    }
+
+    body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden !important;
+    }
+
+    /* Carousel */
+
+    .video{
+        width: 100%;
+    }
+
+    .video > iframe{
+        width: 99%;
+        height: 100%;
+    }
+    
+    .textoo{
+        width: 100%;
+    }
+
+    .container_titulo h1{
+        margin-left: 28%;
+    }
+
+    #carouselExampleIndicators{
+        background: rgb(235, 230, 235);
+        border-radius: 15px;
+        width: 100%;
+    }
+
+    /* Destaques */
+
+    .destaques h1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .card_area img{
+        border-radius: 20px;
+        padding: 7px;
+    }
+
+    .carregar{
+        margin-left: 100px;
+    }
+
+    .dropdown{
+        display: none;
+    }
+
+    .imagem{
+        width: 90px;
+        margin-left: 7px;
+        border-radius: 10px;
+    }
+
+    .card_area{
+        align-items: center;
+    }
+
+    .destaquestitulo{
+        width: 100%;
+        text-align: center;
+    }
+    
+
+    /* Avaliações */
+    .carregara{
+        margin-left: 50px;
+    }
+
+    .avaliações{
+        padding: 20px;
+    }
+
+    .avaliacoestitulo{
+        text-align: center;
+    }
+
+    /* .ultimas_avaliacoes{
+        background-color: red;
+        width: 100%;
+    } */
+
+    /* Entrevistas */
+    .carregaren{
+        display: none;
+    }
+
+    .entrevistas{
+        background: rgb(235, 230, 235);
+        border-radius: 15px;
+        width: 90%;
+        padding: 10px;
+        display: block;
+        margin-left: 17px;
+    }
+
+    .entrevistas1{
+        padding: 20px;
+    }
+    
+    .entrevistas2 iframe{
+        width: 100%;
+    }
+    
+    .carregaren{
+        margin: 20px;
+        margin-top: 20px;
+        margin-left: 810px;
+    }
+
+    .entrevistastitulo > h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /* Novidades e Sobre/Editorial */
+
+    .materiaimg{
+        margin-left: 60px;
+    }
+
+    .card-bodynn > h5{
+        text-align: center;
+    }
+
+    .bottomm{
+        margin-left: 50px;
+    }
+
+    .tamanhoCard{
+        width: 320px;
+    }
+
+    .card-title1{
+        text-align: center;
+        padding: 20px;
+    }
+
+    .card-text1{
+        padding: 20px;
+        text-align:center;
+    }
+
+    .editorial{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .persona{
+        margin-left: 10px;
+    }
+
+    .novidadestitulo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .novidades{
+        width: 100%;
+    }
+
+    /* Rodapé */
+    footer{
+        display: none;
+    }
+
+}
