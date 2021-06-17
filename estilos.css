@@ -81,6 +81,18 @@ body {
 
 }
 
+.spanEstreia {
+    margin-left: 5px;
+}
+
+.poster > img{
+    width: 230px;
+    margin-left: 140px;
+}
+
+.texto_poster{
+    margin-top: 20px;
+}
 /* Destaques */
 
 .destaque h1{
@@ -97,14 +109,31 @@ body {
     margin-top: 30px;
 }
 
-.destaques{
-    margin-top: 20px;
+.divDestaques {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-.card_area img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+.cardPopularidade {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.containerCardPopularidade{
+    justify-content: center;
+}
+
+.imagemPopularidade {
+    height:350px;
+}
+
+.destaque > img{
+   height: 300px;
+   width: 200px;
+   border-radius: 5px;
 }
 
 .carregar{
@@ -149,6 +178,10 @@ body {
     margin-left: 810px;
 }
 
+.avaliações {
+    padding: 0;
+}
+
 /* Entrevistas */
 
 .entrevistas{
@@ -158,6 +191,7 @@ body {
 
 .row > iframe{
     padding: 20px;
+    margin: 0%;
 }
 
 .carregaren{
@@ -276,6 +310,18 @@ body {
         overflow-x: hidden !important;
     }
 
+    .navbar-nav{
+        align-items: center;
+    }
+
+    .logo{
+        display: none;
+    }
+
+   .form-control{
+        margin-left: 20px;
+    }
+
     /* Carousel */
 
     .video{
@@ -301,15 +347,15 @@ body {
         width: 100%;
     }
 
+    .poster > img{
+        width: 230px;
+        margin-left: 20px;
+    }
+
     /* Destaques */
 
     .destaques h1{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    .card_area img{
-        border-radius: 20px;
-        padding: 7px;
     }
 
     .carregar{
@@ -320,21 +366,14 @@ body {
         display: none;
     }
 
-    .imagem{
-        width: 90px;
-        margin-left: 7px;
-        border-radius: 10px;
-    }
-
-    .card_area{
-        align-items: center;
-    }
-
     .destaquestitulo{
         width: 100%;
         text-align: center;
     }
-    
+
+   .imagem{
+        width: 10%;
+    }
 
     /* Avaliações */
     .carregara{
@@ -434,7 +473,7 @@ body {
     }
 
     /* Rodapé */
-    footer{
+    footer > img{
         display: none;
     }
 
